@@ -15,8 +15,8 @@ const Chatbot = () => {
                   <p>Chat output section</p>
               </div>
               <div className='flex-col sm:flex-row flex-grow flex-shrink min-h-[3rem] overflow-auto'>
-                <input className='p-1 w-auto flex-grow rounded-md text-black ' type="text" placeholder='Enter message'/>
-                <button className='flex-grow bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
+                <input className='grow p-1 w-auto rounded-md text-black ' type="text" placeholder='Enter message'/>
+                <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
               </div>
             </div>
 
